@@ -1,0 +1,6 @@
+total 405
+-rw-r--r-- 1 amoshiur 1049089     38 Jan 24 16:40 catfile.txt
+-rw-r--r-- 1 amoshiur 1049089   1060 Jan 24 16:12 new.todo
+-rw-r--r-- 1 amoshiur 1049089   1364 Jan 24 16:43 notes.todo
+-rw-r--r-- 1 amoshiur 1049089      0 Jan 24 16:43 output.txt
+-rw-r--r-- 1 amoshiur 1049089 405266 Jan 24 11:37 SspDywPOSySKQ8sDzrskYA_e4f25a0bc3f44a89a282db515ce821e1_github-git-cheat-sheet.pdf

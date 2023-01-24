@@ -39,17 +39,3 @@ Unix Commands:
       ☐ chmod 755 file.ext
     Pipes Examples Word Count:
       ☐ wc file.ext -w 
-      ☐ cat notes.todo | wc -w (count the number of words in the file )
-      ☐ cat notes.todo new.todo | wc -w (count the number of words in the files )
-      ☐ ls | wc -w  (count the number of files )
-
-
-    Redirection :
-      ☐ everything in unix is file 
-      ☐ ls -l > output.txt
-      ☐ input represented by 0 ; use less than < 
-      ☐ output represented by 1; use greater than > 
-      ☐ error stream 2>; 2 followed by the greater than sign
-      ☐ ls -l notexits/dir > error.txt
-      ☐ ls -l notexits/dir 2> error.txt
-      ☐ less errot.txt

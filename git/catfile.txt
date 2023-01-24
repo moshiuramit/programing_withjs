@@ -1,0 +1,4 @@
+Adding text from command line 
+ok;
+!
+
