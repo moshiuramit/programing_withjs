@@ -1,0 +1,23 @@
+{
+  "name": "programing_withjs",
+  "version": "1.0.0",
+  "description": "Programming with JavaScript By Meta course codes",
+  "main": "functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshiuramit/programing_withjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moshiuramit/programing_withjs/issues"
+  },
+  "homepage": "https://github.com/moshiuramit/programing_withjs#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
