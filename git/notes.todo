@@ -53,3 +53,19 @@ Unix Commands:
       ☐ ls -l notexits/dir > error.txt
       ☐ ls -l notexits/dir 2> error.txt
       ☐ less errot.txt
+      ☐ 
+    Take input on txt file:
+      ☐ cat > input.txt (enter)
+      This is me adding some txt from the keyboartd!
+    Grep: 
+      ☐ Global regular expression print 
+      ☐ ls -l 
+      ☐ grep sam file.txt ( will search sam on file.txt)
+      ☐ grep -i findout file.txt (Search for findout lowercase )
+      ☐ grep -w findout file.txt (Search exactly same match )
+      ☐ ls /bin | grep zip ()
+
+
+  ☐ Git flow  ==   Modified → Staged → Committed  → Remote Repo
+  ☐                     git add → git commit → git push
+  ☐ ←Git fetch ← git checkout 
