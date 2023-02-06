@@ -92,4 +92,11 @@ Unix Commands:
 
   Diff Command:
     ☐ git status 
+    ☐ git diff 
+    ☐ git log --preety
+    ☐ git log --preety=oneline
+
+    ☐ git branch 
+    ☐ git diff main feature/newbranch
     ☐ 
+
