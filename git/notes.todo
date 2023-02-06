@@ -73,3 +73,23 @@ Unix Commands:
 
     to add new branch code to remote :
     ☐ git push -u origin feature/lesson
+
+  Feature branching:  
+    ☐ Git pull 
+    ☐ Git checkout -b checkout feature/newbranch
+    ☐ Git add . 
+    ☐ Git commit -m “new branch created”
+    ☐ Git push -u origin feature/newbranch  || pushed to new remote branch not on main branch
+
+    HEAD:
+    ☐ Cd .git 
+    ☐ Cat /refs/heads/main
+
+    ☐ Cat .git/HEAD
+      ref: refs/heads/feature/lesson
+
+
+
+  Diff Command:
+    ☐ git status 
+    ☐ 
