@@ -2,3 +2,6 @@ Adding text from command line
 ok;
 !
 
+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
+
+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

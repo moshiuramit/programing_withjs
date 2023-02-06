@@ -69,3 +69,7 @@ Unix Commands:
   ☐ Git flow  ==   Modified → Staged → Committed  → Remote Repo
   ☐                     git add → git commit → git push
   ☐ ←Git fetch ← git checkout 
+
+
+    to add new branch code to remote :
+    ☐ git push -u origin feature/lesson
