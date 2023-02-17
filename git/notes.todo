@@ -88,7 +88,9 @@ Unix Commands:
     ☐ Cat .git/HEAD
       ref: refs/heads/feature/lesson
 
-
+ Github login:
+   ☐ gh auth login 
+   ☐ 
 
   Diff Command:
     ☐ git status 
@@ -100,3 +102,9 @@ Unix Commands:
     ☐ git diff main feature/newbranch
     ☐ 
 
+    ☐ git blame notes.todo
+    ☐ git blame notes.todo -L 30,50
+    ☐ git blame -l git/notes.todo
+    ☐ git blame -l git/notes.todo
+
+ ☐ The order in which the change information will display in each line as follows: < ID><Author><Date><Time><Line number><Content>  
