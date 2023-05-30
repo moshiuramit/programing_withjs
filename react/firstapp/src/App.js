@@ -21,7 +21,7 @@ function Header(props) {
 }
 function App() {
   return (
-    <div className='root'>
+    <div className='root-wrapper'>
       
       <Header  name="Amit" color="purple" />
       <Nav item1="Home" item2="About Me" item3="Examples" item4="Contact Us" />
@@ -31,12 +31,15 @@ function App() {
         alt="Banner" />
       </div>
       
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/examples" element={<Examples />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className='main-content'>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/examples" element={<Examples />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+      
       
       
       <Footer />
