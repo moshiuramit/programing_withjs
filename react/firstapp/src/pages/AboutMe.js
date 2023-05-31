@@ -47,7 +47,8 @@ function AboutMe() {
   };
 
   return (
-    <div className="AboutMe">
+      <div className="AboutMe">
+
       <form onSubmit={handleSubmit}>
         <fieldset>
           <h2>Sign Up</h2>
