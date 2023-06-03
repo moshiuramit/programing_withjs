@@ -1,5 +1,5 @@
-//import ReactPlayer from "react-player"; // all media 
-import ReactPlayer from "react-player/youtube";
+import ReactPlayer from "react-player"; // all media 
+//import ReactPlayer from "react-player/youtube";
 function Contact() {
     return (
         <div>
