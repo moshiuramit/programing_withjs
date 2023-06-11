@@ -1,5 +1,6 @@
+import {useState} from "react";
 function ModeToggler() {
-    let darkModeOn = true;
+    var darkModeOn = true;
     let darkMode = <h1>Dark Mode is On</h1>;
     let lightMode = <h1>Light Mode is On</h1>;
 
