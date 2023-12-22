@@ -8,6 +8,7 @@ import Homepage from './pages/Homepage';
 import AboutMe from './pages/AboutMe';
 import Examples from './pages/Examples';
 import Contact from './pages/Contact';
+import Search from './pages/Search';
 /* Header component */
 function Header(props) {
   return (
@@ -24,12 +25,7 @@ function App() {
     <div className='root-wrapper'>
       
       <Header  name="Amit" color="purple" />
-      <Nav item1="Home" item2="About Me" item3="Examples" item4="Contact Us" />
-      <div className='img-center'>
-        <img
-        src={require("./assets/Category_Japanese-Apartment-Life.png")} 
-        alt="Banner" />
-      </div>
+      <Nav item1="Home" item2="About Me" item3="Examples" item4="Contact Us" item5= "Search" />
       
       <div className='main-content'>
         <Routes>
@@ -37,6 +33,7 @@ function App() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/examples" element={<Examples />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
       </div>
       

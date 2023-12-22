@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+input{ padding: 10px;}
+button{
+  padding: 10px 20px;
+  margin: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -37,17 +42,4 @@
   }
 }
 
-.card {
-  margin: 20px;
-  max-width: 100%;
-  border: 1px solid gray;
-  padding: 20px;
-  border-radius: 10px;
-}
 
-input, button{
-  margin: 20px;
-  height: 40px;
-  padding: 5px 20px; 
-  box-sizing: border-box;
-}
