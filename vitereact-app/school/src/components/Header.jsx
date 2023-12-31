@@ -38,6 +38,12 @@ const Header = () => {
                     <li  className="nav-item @@contact__active">
                     <Link  className="nav-link" to="/contact">Contact</Link>
                     </li>
+                    <li  className="nav-item @@contact__active">
+                    <Link  className="nav-link" to="/stateandprops">State&props</Link>
+                    </li>
+                    <li  className="nav-item @@contact__active">
+                    <Link  className="nav-link" to="/movies">Movies</Link>
+                    </li>
                 </ul>
 
                 {/*  /search-right  */}

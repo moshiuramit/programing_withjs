@@ -37,3 +37,10 @@ function calculate(initialValue, incrementValue) {
 }
 
 console.log(calculate(two, one));
+    console.log(5);
+    var hoc = "me";
+
+
+var a = 6;
+console.log(a);
+
