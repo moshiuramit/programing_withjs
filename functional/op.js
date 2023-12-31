@@ -1,4 +1,4 @@
-var h1 = document.querySelector('h1');
+//var h1 = document.querySelector('h1');
 var arr = [
         'Example Domain',
         'First Click',
@@ -6,7 +6,7 @@ var arr = [
         'Third Click'
     ];
 console.log(arr);
-function handleClicks(){
+/* function handleClicks(){
 
     switch (h1.innerText) {
         case arr[0]:
@@ -23,8 +23,24 @@ function handleClicks(){
             h1.innerText = arr[0]
             break;
     }
-}
+} */
 
-addEventListener('click', handleClicks);
+//addEventListener('click', handleClicks);
 
 //bedroom-furniture-set-price-in-bangladesh
+
+const persons = [
+    {
+        name: "Sumit",
+        age: 37,
+    },
+    {
+        name: "Saad",
+        age: 23,
+    },
+    {
+        name: "Akash",
+        age: 22,
+    },
+];
+console.log(persons.reduce((total, persons) => total + persons.age, 0));
