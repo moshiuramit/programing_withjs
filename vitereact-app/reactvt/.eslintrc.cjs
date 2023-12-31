@@ -16,5 +16,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'eslint-disable react/prop-types': false, // by amit on 30th December
   },
 }

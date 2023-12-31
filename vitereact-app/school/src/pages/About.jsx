@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 const About = () => {
+    let dynamic = "hemkdjf";
   return (
     <div>
       <Header />
@@ -19,7 +20,7 @@ const About = () => {
                                   <span className="fa fa-graduation-cap"></span>
                               </div>
                               <div className="info">
-                                  <p>Our</p>
+                                  <p className={` ameen ${dynamic}`} >Our</p>
                                   <h4><a href="#url">Mission</a></h4>
                               </div>
                           </div>
