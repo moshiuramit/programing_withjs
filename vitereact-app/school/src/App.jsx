@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Movies from './pages/Movies'
 import Rnd from './pages/Rnd'
 import Stateandprops from './pages/Stateandprops'
-
+import './App.css';
 const App = () => {
   return (
     <BrowserRouter>
